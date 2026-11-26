@@ -1,4 +1,4 @@
-# Stroke Risk Factors & Clinical Triage App 🩺
+# Stroke Risk Factors & Clinical Triage App 
 
 **Project #49** — Introduction to Data Science (`25A12104`)  
 **Student:** Amruthavarshini (`S230997`) — AIML-2A  
