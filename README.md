@@ -1,7 +1,7 @@
 # Stroke Risk Factors & Clinical Triage App 🩺
 
 **Project #49** — Introduction to Data Science (`25A12104`)  
-**Student:** Vaddi Varshitha (`S230617`) — AIML-2A  
+**Student:** Amruthavarshini (`S230997`) — AIML-2A  
 **Course Instructor:** Satish C  
 **Submission:** November 2026
 
