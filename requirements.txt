@@ -1,0 +1,19 @@
+pandas>=2.2.0          # data wrangling
+numpy>=1.26.0
+scipy>=1.13.0          # stats tests
+statsmodels>=0.14.2    # logistic regression odds ratios
+
+scikit-learn>=1.5.0    # ml pipelines, metrics
+imbalanced-learn>=0.12.3  # SMOTE
+xgboost>=2.1.0
+joblib>=1.4.0
+
+matplotlib>=3.9.0      # plotting
+seaborn>=0.13.2
+plotly>=5.22.0         # interactive charts
+
+streamlit>=1.38.0      # web app
+
+jupyter>=1.1.0         # notebooks
+nbconvert>=7.16.0
+ipykernel>=6.29.0
