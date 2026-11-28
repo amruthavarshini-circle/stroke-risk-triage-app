@@ -80,37 +80,3 @@ ds-stroke-risk-triage-app/
 | Web App | Streamlit |
 | Version Control | Git / GitHub |
 
-## How to Run
-
-```bash
-# 1. Clone
-git clone https://github.com/RajuGudem26/ds-stroke-risk-triage-app.git
-cd ds-stroke-risk-triage-app
-
-# 2. Set up virtual environment
-python3 -m venv venv
-source venv/bin/activate      # macOS/Linux
-# venv\Scripts\activate       # Windows
-
-# 3. Install dependencies (on macOS you might need: brew install libomp for XGBoost)
-pip install -r requirements.txt
-
-# 4. Download the dataset from Kaggle and put it in data/raw/
-
-# 5. Run data cleaning
-python -m src.data_cleaning
-jupyter nbconvert --execute --inplace notebooks/01_data_audit_and_cleaning.ipynb
-
-# 6. Run statistical tests
-python -m src.statistical_tests
-
-# 7. Train models
-python -m src.train_models
-
-# 8. Launch the app
-streamlit run src/app.py
-```
-
-## License
-
-Academic capstone project — for educational purposes only.
