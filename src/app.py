@@ -220,8 +220,7 @@ def main():
     # sidebar
     with st.sidebar:
         st.markdown("### 🩺 Stroke Clinical Triage")
-        st.info("**Project #49**\nVaddi Varshitha (S230617)\nIDS (25A12104) — AIML-2A")
-
+        st.info("**Project #49**\nAmruthavarshini (S230997)\nIDS (25A12104) — AIML-2A")
         selected_label = st.selectbox("Select Screening Model", list(model_options.keys()))
         model_key, active_pipe = model_options[selected_label]
 
